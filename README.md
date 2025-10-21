@@ -1,12 +1,3 @@
-Відкрити браузер
-chromium --remote-debugging-port=9222
-
-перейти
-cd /form-filler
-
-запустити
-node run.js 4
-
 Автоматизація створення документів з Google Forms
 
 Цей проєкт Google Apps Script автоматизує створення документів Google Slides або Google Docs на основі даних, отриманих з Google Form. Він відстежує нові рядки у Google Sheet, копіює файл-шаблон, замінює в ньому плейсхолдери {{Назва Колонки}} на реальні дані та зберігає готовий файл у вказану папку на Google Drive.
