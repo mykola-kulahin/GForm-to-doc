@@ -1,7 +1,9 @@
 Відкрити браузер
 chromium --remote-debugging-port=9222
+
 перейти
 cd /form-filler
+
 запустити
 node run.js 4
 
